@@ -1,0 +1,32 @@
+body{
+    background-color: #85DCB1;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: clamp(15px, 1.5vw, 2vw)
+}
+
+.title{
+    margin-top: 5em;
+}
+
+.score{
+    display: inline-block;
+    margin: .5em;
+}
+
+button{
+    font-family: 'Roboto Slab', serif;
+    border: none;
+    border-radius: 5px;
+    background-color: #85b0dc;
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    margin: 20px;
+    font-size: clamp(15px, 1.5vw, 2vw)
+}
+
+button:hover{
+    background-color: #b5d0ec;
+}
